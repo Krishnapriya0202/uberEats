@@ -5,7 +5,8 @@
         <meta name="viewport" content="width=device-width,initial-scale-1.0">
         <link rel="stylesheet" href="style.css">
         <link rel="icon" href="logo.webp">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        
         <title>Uber Eats|Food Delivery and Takeout|Order Online from Reastaurant Near You</title>
     </head>
     <body>
@@ -16,8 +17,13 @@
                         
                     
                     <div class="top-nav-right">
-                        <div id="signUp"><a href="#">Sign In</a></div>
-                        <div id="signBtn"><a href="#">Sign up</a></div>
+                        <div class="login-btn">
+                            <button class="loginbtn" id="login">Log in</button>
+                            <button class="signup" id="sign-up">Sign up</button>
+                        </div>
+
+                        <!--<div id="signUp"><a href="#">Log in</a></div>
+                        <div id="signBtn"><a href="#">Sign up</a></div>-->
                     </div>
                 </div>
                 <div class="top-heading">
@@ -34,6 +40,21 @@
                             >
                         </div>
                     </div>
+                    <div class="forms">
+                        <select class="dropdown">
+                            <h2>Deliver now</h2>
+                            
+                            <option value="option1">Deliver now</option>
+                            <option value="option2">Shedule for later</option>
+                        </select>
+                        <!--<div class="search">
+                            <button class="btn" id="search button">Search here</button>
+                        </div> -->
+                    </div>
+                    <div class="search">
+                        <button class="btn" id="search button">Search here</button>
+                    </div> 
+
                 </div>
             </div>
         </div>
@@ -254,9 +275,70 @@
      </div>
     
 
-     <div class="six">
+    <div class="footer-section">
+        <div class="footer">
+            <div class="footer-links">
+                <div class="footer-column">
+                    <div><h2>Uber Eats</h2></div>
+                    <ul class="col-links">
+                        <li><img src="apple_google.png" alt=""></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <div></div>
+                    <ul class="col-links">
+                        <li><a href="">Get Help</a></li><br>
+                        <li><a href="">Buy gift cards</a></li><br>
+                        <li><a href="">Add your restaurant</a></li><br>
+                        <li><a href="">Sign up to deliver</a></li><br>
+                        <li><a href="">Create a business account</a></li><br>
+                        <li><a href="">Promotions</a></li>
+                    </ul>
+                </div>
+                <div class="footer-list">
+                    <div></div>
+                    <ul class="col-list">
+                        <li><a href="">Reastaurants near me</a></li><br>
+                        <li><a href="">View all cities</a></li><br>
+                        <li><a href="">View all countries</a></li><br>
+                        <li><a href="">Pickup near me</a></li><br>
+                        <li><a href="">About Uber Eats</a></li><br>
+                        <li><a href="">Shop groceries</a></li><br>
+                        <li></li><img src="translate.png" alt="">English</li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
         <hr>
-     </div>
+    </div>
+    <footer class="footer">
+        <ul class="social-icons">
+            <li><a href="https://www.facebook.com" target="_blank"><i class="fa-brands fa-square-facebook"></i></a></li>
+            <li><a href="https://www.twitter.com"><i class="fa-brands fa-twitter"></i></a></li>
+            <li><a href="https://www.instagram.com"><i class="fa-brands fa-instagram"></i></a></li>
+        </ul>
+        <div class="mid-left-footer">
+            <div class="bottom-footer">
+                <div class="bottom-left-footer">
+                    <ul>
+                        <i class="footer-legals">Privacy Policy</i>
+                        <i class="footer-legals">Terms</i>
+                        <i class="footer-legals">Pricing</i>
+                        <i class="footer-legals">Do not sell or share my personal information</i>
+                    </ul>
+                </div>
+            </div>
+        </div>
+     </footer> 
+
+     
+     
+        
 
     </body>
+
 </html>
+
+
+
